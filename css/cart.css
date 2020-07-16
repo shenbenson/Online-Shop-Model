@@ -1,0 +1,164 @@
+body {
+	font-family: 'PT Serif', serif;
+	background-color: #f7f7f7;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+#shoppingCartLabel {
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+#allProductsContainer {
+	float: left;
+	width: 50%;
+}
+
+.productContainer {
+	margin-bottom: 10px;
+	height: 130px;
+	width: 100%;
+	border-radius: 10px;
+	border: 1px solid #cecece;
+	padding: 15px;
+	max-width: 1000px;
+	min-width: 600px;
+	float: left;
+	background-color: white;
+}
+
+.imageContainer {
+	height: 130px;
+	width: 130px;
+	float: left;
+}
+
+.productImage {
+	max-width:100%;
+	max-height:100%;
+}
+
+.nameContainer {
+	width: 30%;
+	margin-left: 5%;
+	float: left;
+}
+
+.productName {
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	margin: 0;
+}
+
+.priceContainer {
+	margin-left: 3%;
+	float: left;
+}
+
+.productPrice {
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.quantityContainer {
+	width: 80px;
+	float: right;
+}
+
+.quantityLabel {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.productQuantity {
+	width: 68px;
+	height: 22px;
+	font-size: 16px;
+	margin-top: 10px;
+	border: 1px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.updateQuantity {
+	width: 80px;
+	height: 26px;
+	font-size: 16px;
+	margin-top: 10px;
+	border: 1px solid black;
+	border-radius: 2px;
+	background-image: linear-gradient(#42f483, #31b270);
+	font-family: 'PT Serif', serif;
+}
+
+.updateQuantity:hover {
+	cursor: pointer;
+}
+
+#checkoutContainer {
+	padding: 20px;
+	width: 26%;
+	float: right;
+	box-shadow: 0px 0px 5px grey;
+	max-width: 350px;
+	background-color: white;
+	margin-top: 80px;
+}
+
+#checkoutTitle {
+	text-align: center;
+}
+
+#subtotalTitle {
+	font-size: 15px; 
+	display: inline-block;
+	margin-top: 5px;
+}
+
+#subtotalPrice {
+	font-size: 15px; 
+	display: inline-block;
+	font-weight: bold;
+}
+
+#grandTotalTitle {
+	font-size: 20px; 
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#grandTotalPrice {
+	font-size: 20px; 
+	color: red;
+	display: inline-block;
+	font-weight: bold;
+}
+
+#shippingEligibility {
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+#checkoutButton {
+	height: 50px;
+	width: 100%;
+	font-size: 24px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: linear-gradient(#4fff9b, #36b56d);
+	margin-top: 20px;
+	font-family: 'PT Serif', serif;
+}

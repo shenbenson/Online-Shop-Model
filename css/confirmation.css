@@ -1,0 +1,25 @@
+body {
+	font-family: 'PT Serif', serif;
+}
+
+h1 {
+	padding: 0;
+}
+
+.messageText {
+	font-size: 24px;
+}
+
+#printButton {
+	height: 50px;
+	width: 200px;
+	font-size: 24px;
+	font-family: 'PT Serif', serif;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: linear-gradient(#4fff9b, #36b56d);
+}
+
+#printButton:hover {
+	cursor: pointer;
+}

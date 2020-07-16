@@ -1,0 +1,206 @@
+body {
+	font-family: 'PT Serif', serif;
+	background-color: #f7f7f7;
+	z-index: 2;
+}
+
+#productImage {
+	display: inline-block;
+	padding: 10px;
+	width: 25%;
+	margin: 30px 0% 3% 3%;
+	max-width: 500px;
+	border: 2px solid #eaeaea;
+	background-color: white;
+	float: left;
+	box-shadow: 0px 0px 5px grey;
+	transition: transform 0.2s;
+}
+
+#productImage:hover {
+	position: relative;
+	transform: scale(1.2);
+}
+
+#divProductInfo {
+	margin-top: 30px;
+	float: left;
+	width: 39%;
+	margin-left: 5%;
+}
+
+#divProductCheckout {
+	margin-top: 30px;
+	width: 17%;
+	max-width: 300px;
+	margin-right: 2%;
+	padding: 20px 20px 20px 20px;
+	border: 2px solid #eaeaea;
+	background-color: white;
+	float: right;
+	box-shadow: 1px 1px 5px grey;
+}
+
+#divMainProduct {
+	float: none;
+	position: relative;
+	display: inline-block;
+}
+
+#productName {
+	margin: 0px 0px 10px 0px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#productPrice {
+	margin: 10px 0px 0px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+#previousProductPrice {
+	margin: 10px 0px 0px 0px;
+	font-size: 16px;
+	color: red;
+}
+
+#productInventory {
+	margin: 10px 0px 0px 0px;
+	font-size: 18px;
+	color: #383838;
+}
+
+.horDiv {
+	margin: 20px 0px 0px 0px;
+	color: gray;
+}
+
+#descriptionTitle {
+	margin: 20px 0px 0px 0px;
+	font-size: 20px;
+	color: #383838;
+}
+
+#productDescription {
+	font-size: 16px;
+	font-weight: normal;
+	color: #383838;
+}
+
+#shippingDescription {
+	margin: 10px 0px 0px 0px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #383838;
+}
+
+#checkoutTitle {
+	margin: 0;
+	text-align: center;
+	font-size: 28px;
+}
+
+#quantityLabel {
+	font-size: 18px;
+}
+
+#checkoutQuantity {
+	width: 40px;
+	height: 18px;
+	font-size: 14px;
+	padding: 2px 4px 2px 4px;
+	border: 1px solid black;
+	margin-left: 5px;
+}
+
+#inStock {
+	font-size: 24px;
+	color: green;
+	margin: 15px 0px 0px 0px;
+}
+
+#outOfStock {
+	margin: 15px 0px 0px 0px;
+	font-size: 20px;
+	color: red;
+}
+
+#divBuyForm {
+	margin: 20px 0px 0px 0px;
+}
+
+#addToCartButton {
+	height: 50px;
+	width: 100%;
+	color: #262626;
+	margin-top: 20px;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: linear-gradient(#4fff9b, #36b56d);
+}
+
+#addToCartButton:hover {
+	cursor: pointer;
+}
+
+#pageContainer {
+	padding: 75px 25px 25px 25px;
+}
+
+.moreProductsTitle {
+	font-size: 24px;
+	margin: 20px 0px 5px 10px;
+}
+
+.moreProductsImg {
+	margin-top: 10px;
+	width: 130px;
+	height: 130px;
+	float: left;
+	margin-right: 20px;
+}
+
+.moreProductsName {
+	margin-top: 15px;
+	height: 80px;
+	max-height: 85px;
+	font-weight: bold;
+	font-size: 15px;
+	text-overflow: ellipsis;
+	white-space: initial;
+	color: black;
+}
+
+.moreProductsPrice {
+	font-weight: bold;
+	font-size: 14px;
+	color: red;
+	margin-top: 15px;
+	white-space: pre;
+}
+
+.divMoreProducts {
+	display: inline-block;
+	width: 380px;
+	height: 150px;
+	padding: 15px 10px 10px 15px;
+	background-color: white;
+	margin: 0px 20px 5px -5px;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	transition: box-shadow 0.2s;
+}
+
+.divMoreProducts:hover {
+	box-shadow: 0px 0px 5px gray; 
+}
+
+#moreProductsScrollMenu {
+	overflow: auto;
+	white-space: nowrap;
+	padding: 5px 0px 5px 15px;
+}

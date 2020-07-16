@@ -1,0 +1,190 @@
+body {
+	font-family: 'PT Serif', serif;
+	background-color: #f7f7f7;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+a {
+	text-decoration: none;
+}
+
+hr {
+	margin: 20px 0px 0px 10px;
+}
+
+.orderHR {
+	margin: 20px 0px 20px 25px;
+}
+
+h2 {
+	margin: 0;
+}
+
+#checkoutTitle {
+	padding-top: 10px;
+	margin: 0px;
+}
+
+#informationTitle {
+	margin: 15px 0px 10px 0px;
+}
+
+#informationContainer {
+	display: inline-block;
+	width: 30%;
+	max-width: 500px;
+	background-color: white;
+	padding: 0px 40px 20px 20px;
+	box-shadow: 0px 0px 5px grey;
+	margin-top: 10px;
+}
+
+.inputField {
+	border-radius: 3px;
+	border: 1px solid black;
+	width: 100%;
+	height: 22px;
+	font-size: 16px;
+	padding: 5px;
+	margin-bottom: 15px;
+	display: block;
+}
+
+.inputLabel {
+	font-size: 18px;
+}
+
+#orderContainer {
+	float: right;
+	display: inline-block;
+	width: 50%;
+	padding: 20px 50px 20px 20px;
+	box-shadow: 0px 0px 5px grey;
+	background-color: white;
+	max-width: 800px;
+	margin: 10px 0px 20px 0px;
+}
+
+#orderTitle {
+	text-align: center;
+	margin: 0;
+}
+
+.productContainer {
+	margin-bottom: 20px;
+	height: 80px;
+	width: 100%;
+	border-radius: 10px;
+	border: 1px solid #cecece;
+	padding: 15px;
+	float: left;
+	background-color: white;
+}
+
+.imageContainer {
+	height: 80px;
+	width: 80px;
+	display: inline-block;
+	float: left;
+}
+
+.productImage {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.nameContainer {
+	display: inline-block;
+	width: 45%;
+	margin-left: 5%;
+	float: left;
+}
+
+.productName {
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	margin: 0;
+}
+
+.priceContainer {
+	margin-left: 10px;
+	float: left;
+}
+
+.productPrice {
+	color: red;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0;
+}
+
+.quantityContainer {
+	float: right;
+}
+
+.productQuantity {
+	margin: 0;
+	font-size: 14px;
+}
+
+#subtotalTitle {
+	font-size: 15px; 
+	display: inline-block;
+}
+
+#taxTitle {
+	margin-left: 20px;
+	font-size: 15px; 
+	display: inline-block;
+}
+
+#subtotalPrice {
+	font-size: 15px; 
+	display: inline-block;
+	font-weight: bold;
+}
+
+#grandTotalTitle {
+	font-size: 20px; 
+	display: inline-block;
+}
+
+#grandTotalPrice {
+	font-size: 20px; 
+	color: red;
+	display: inline-block;
+	font-weight: bold;
+}
+
+#subtotalContainer {
+	float: left;
+	margin-left: 20px;
+}
+
+#shippingCostTitle {
+	font-size: 15px; 
+	margin-left: 20px;
+	display: inline-block;
+}
+
+#orderButton {
+	height: 50px;
+	width: 40%;
+	float: right;
+	font-family: 'PT Serif', serif;
+	font-size: 26px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-image: linear-gradient(#4fff9b, #36b56d);
+	margin-top: 30px;
+}
+
+#orderButton:hover {
+	cursor: pointer;
+}
